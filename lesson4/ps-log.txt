@@ -1,0 +1,304 @@
+Script started on 2026-02-11 15:51:19+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="123" LINES="62"]
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0mps -A
+    PID TTY          TIME CMD
+      1 ?        00:00:00 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 netns
+      7 ?        00:00:00 kworker/0:0H-events_highpri
+      9 ?        00:00:00 mm_percpu_wq
+     10 ?        00:00:00 rcu_tasks_kthread
+     11 ?        00:00:00 rcu_tasks_rude_kthread
+     12 ?        00:00:00 rcu_tasks_trace_kthread
+     13 ?        00:00:00 ksoftirqd/0
+     14 ?        00:00:00 rcu_preempt
+     15 ?        00:00:00 migration/0
+     17 ?        00:00:00 cpuhp/0
+     18 ?        00:00:00 cpuhp/1
+     19 ?        00:00:00 migration/1
+     20 ?        00:00:00 ksoftirqd/1
+     23 ?        00:00:00 kdevtmpfs
+     24 ?        00:00:00 inet_frag_wq
+     25 ?        00:00:00 kauditd
+     27 ?        00:00:00 khungtaskd
+     30 ?        00:00:00 oom_reaper
+     31 ?        00:00:00 writeback
+     32 ?        00:00:00 kcompactd0
+     33 ?        00:00:00 ksmd
+     36 ?        00:00:00 khugepaged
+     37 ?        00:00:00 kintegrityd
+     38 ?        00:00:00 kblockd
+     39 ?        00:00:00 blkcg_punt_bio
+     40 ?        00:00:00 tpm_dev_wq
+     41 ?        00:00:00 md
+     42 ?        00:00:00 devfreq_wq
+     43 ?        00:00:00 watchdogd
+     44 ?        00:00:00 kworker/1:1H-kblockd
+     45 ?        00:00:00 kswapd0
+     46 ?        00:00:00 kthrotld
+     48 ?        00:00:00 kworker/1:3-cgroup_destroy
+     51 ?        00:00:00 irq/24-pciehp
+     52 ?        00:00:00 irq/25-pciehp
+     53 ?        00:00:00 irq/26-pciehp
+     54 ?        00:00:00 irq/27-pciehp
+     55 ?        00:00:00 irq/28-pciehp
+     56 ?        00:00:00 irq/29-pciehp
+     57 ?        00:00:00 irq/30-pciehp
+     58 ?        00:00:00 irq/31-pciehp
+     59 ?        00:00:00 irq/32-pciehp
+     60 ?        00:00:00 irq/33-pciehp
+     61 ?        00:00:00 irq/34-pciehp
+     62 ?        00:00:00 irq/35-pciehp
+     63 ?        00:00:00 irq/36-pciehp
+     64 ?        00:00:00 irq/37-pciehp
+     65 ?        00:00:00 irq/38-pciehp
+     66 ?        00:00:00 irq/39-pciehp
+     67 ?        00:00:00 irq/40-pciehp
+     68 ?        00:00:00 irq/41-pciehp
+     69 ?        00:00:00 irq/42-pciehp
+     70 ?        00:00:00 irq/43-pciehp
+     71 ?        00:00:00 irq/44-pciehp
+     72 ?        00:00:00 irq/45-pciehp
+     73 ?        00:00:00 irq/46-pciehp
+     74 ?        00:00:00 irq/47-pciehp
+     75 ?        00:00:00 irq/48-pciehp
+     76 ?        00:00:00 irq/49-pciehp
+     77 ?        00:00:00 irq/50-pciehp
+     78 ?        00:00:00 irq/51-pciehp
+     79 ?        00:00:00 irq/52-pciehp
+     80 ?        00:00:00 irq/53-pciehp
+     81 ?        00:00:00 irq/54-pciehp
+     82 ?        00:00:00 irq/55-pciehp
+     83 ?        00:00:00 nvme-wq
+     84 ?        00:00:00 nvme-reset-wq
+     85 ?        00:00:00 nvme-delete-wq
+     86 ?        00:00:00 mld
+     87 ?        00:00:00 ipv6_addrconf
+     88 ?        00:00:00 kstrp
+     94 ?        00:00:00 zswap-shrink
+     95 ?        00:00:00 kworker/u257:0
+    142 ?        00:00:00 charger_manager
+    352 ?        00:00:00 kworker/0:1H-kblockd
+    421 ?        00:00:00 mpt_poll_0
+    422 ?        00:00:00 mpt/0
+    619 ?        00:00:00 scsi_eh_0
+    626 ?        00:00:00 scsi_tmf_0
+    673 ?        00:00:00 irq/16-vmwgfx
+   2171 ?        00:00:00 jbd2/sda2-8
+   2172 ?        00:00:00 ext4-rsv-conver
+   2494 ?        00:00:00 systemd-journal
+   2508 ?        00:00:00 iprt-VBoxWQueue
+   2512 ?        00:00:00 iprt-VBoxTscThread
+   2523 ?        00:00:00 systemd-udevd
+   2549 ?        00:00:00 irq/56-vmw_vmci
+   2550 ?        00:00:00 irq/57-vmw_vmci
+   2551 ?        00:00:00 irq/58-vmw_vmci
+   2556 ?        00:00:00 cryptd
+   2557 ?        00:00:00 ata_sff
+   2560 ?        00:00:00 scsi_eh_1
+   2561 ?        00:00:00 scsi_tmf_1
+   2564 ?        00:00:00 scsi_eh_2
+   2567 ?        00:00:00 scsi_tmf_2
+   2584 ?        00:00:00 scsi_eh_3
+   2586 ?        00:00:00 scsi_tmf_3
+   2588 ?        00:00:00 scsi_eh_4
+   2590 ?        00:00:00 scsi_tmf_4
+   2600 ?        00:00:00 scsi_eh_5
+   2601 ?        00:00:00 scsi_tmf_5
+   2603 ?        00:00:00 scsi_eh_6
+   2604 ?        00:00:00 scsi_tmf_6
+   2606 ?        00:00:00 scsi_eh_7
+   2607 ?        00:00:00 scsi_tmf_7
+   2608 ?        00:00:00 scsi_eh_8
+   2609 ?        00:00:00 scsi_tmf_8
+   2611 ?        00:00:00 scsi_eh_9
+   2613 ?        00:00:00 scsi_tmf_9
+   2616 ?        00:00:00 scsi_eh_10
+   2618 ?        00:00:00 scsi_tmf_10
+   2620 ?        00:00:00 scsi_eh_11
+   2621 ?        00:00:00 scsi_tmf_11
+   2622 ?        00:00:00 scsi_eh_12
+   2623 ?        00:00:00 scsi_tmf_12
+   2624 ?        00:00:00 scsi_eh_13
+   2625 ?        00:00:00 scsi_tmf_13
+   2626 ?        00:00:00 scsi_eh_14
+   2627 ?        00:00:00 scsi_tmf_14
+   2628 ?        00:00:00 scsi_eh_15
+   2629 ?        00:00:00 scsi_tmf_15
+   2630 ?        00:00:00 scsi_eh_16
+   2631 ?        00:00:00 scsi_tmf_16
+   2632 ?        00:00:00 scsi_eh_17
+   2633 ?        00:00:00 scsi_tmf_17
+   2634 ?        00:00:00 scsi_eh_18
+   2636 ?        00:00:00 scsi_tmf_18
+   2637 ?        00:00:00 scsi_eh_19
+   2638 ?        00:00:00 scsi_tmf_19
+   2639 ?        00:00:00 scsi_eh_20
+   2640 ?        00:00:00 scsi_tmf_20
+   2641 ?        00:00:00 scsi_eh_21
+   2642 ?        00:00:00 scsi_tmf_21
+   2643 ?        00:00:00 scsi_eh_22
+   2644 ?        00:00:00 scsi_tmf_22
+   2645 ?        00:00:00 scsi_eh_23
+   2646 ?        00:00:00 scsi_tmf_23
+   2647 ?        00:00:00 scsi_eh_24
+   2648 ?        00:00:00 scsi_tmf_24
+   2649 ?        00:00:00 scsi_eh_25
+   2650 ?        00:00:00 scsi_tmf_25
+   2651 ?        00:00:00 scsi_eh_26
+   2653 ?        00:00:00 scsi_tmf_26
+   2656 ?        00:00:00 scsi_eh_27
+   2659 ?        00:00:00 scsi_tmf_27
+   2661 ?        00:00:00 scsi_eh_28
+   2662 ?        00:00:00 scsi_tmf_28
+   2663 ?        00:00:00 scsi_eh_29
+   2664 ?        00:00:00 scsi_tmf_29
+   2665 ?        00:00:00 scsi_eh_30
+   2666 ?        00:00:00 scsi_tmf_30
+   2667 ?        00:00:00 scsi_eh_31
+   2668 ?        00:00:00 scsi_tmf_31
+   2669 ?        00:00:00 scsi_eh_32
+   2670 ?        00:00:00 scsi_tmf_32
+   2694 ?        00:00:00 kworker/u256:29-flush-8:0
+   2750 ?        00:00:00 kworker/1:2H-kblockd
+   2760 ?        00:00:00 accounts-daemon
+   2762 ?        00:00:00 alteratord
+   2763 ?        00:00:00 avahi-daemon
+   2766 ?        00:00:00 dbus-daemon
+   2768 ?        00:00:00 polkitd
+   2769 ?        00:00:00 systemd-logind
+   2770 ?        00:00:00 udisksd
+   2771 ?        00:00:00 upowerd
+   2772 ?        00:00:00 VGAuthService
+   2773 ?        00:00:02 vmtoolsd
+   2802 ?        00:00:00 avahi-daemon
+   2880 ?        00:00:00 chronyd
+   2898 ?        00:00:00 NetworkManager
+   3029 ?        00:00:00 cupsd
+   3032 ?        00:00:00 crond
+   3036 ?        00:00:00 lightdm
+   3040 ?        00:00:00 ModemManager
+   3082 tty1     00:01:44 X
+   3087 ?        00:00:00 sshd
+   3245 ?        00:00:00 cups-browsed
+   3251 ?        00:00:00 nmbd
+   3257 ?        00:00:00 smbd
+   3259 ?        00:00:00 smbd-notifyd
+   3260 ?        00:00:00 smbd-cleanupd
+   3332 ?        00:00:00 lightdm
+   3370 ?        00:00:00 systemd
+   3372 ?        00:00:00 (sd-pam)
+   3379 ?        00:00:00 pulseaudio
+   3383 ?        00:00:00 dbus-daemon
+   3386 ?        00:00:00 gvfsd
+   3392 ?        00:00:00 gvfsd-fuse
+   3401 ?        00:00:00 gnome-keyring-d
+   3405 ?        00:00:00 mate-session
+   3458 ?        00:00:00 ssh-agent
+   3521 ?        00:00:00 at-spi-bus-laun
+   3526 ?        00:00:00 dbus-daemon
+   3550 ?        00:00:00 dconf-service
+   3555 ?        00:00:00 mate-settings-d
+   3558 ?        00:00:00 at-spi2-registr
+   3569 ?        00:00:17 marco
+   3579 ?        00:00:00 mate-panel
+   3595 ?        00:00:00 caja
+   3596 ?        00:00:00 gvfs-udisks2-vo
+   3602 ?        00:00:00 mate-power-mana
+   3604 ?        00:00:00 gvfs-afc-volume
+   3605 ?        00:00:00 mate-screensave
+   3608 ?        00:00:03 mate-menu
+   3614 ?        00:00:00 blueberry-obex-
+   3615 ?        00:00:00 mate-volume-con
+   3622 ?        00:00:01 parcellite
+   3630 ?        00:00:00 gvfs-gphoto2-vo
+   3632 ?        00:00:00 applet.py
+   3635 ?        00:00:00 polkit-mate-aut
+   3637 ?        00:00:00 apt-indicator
+   3641 ?        00:00:00 gvfs-mtp-volume
+   3645 ?        00:00:02 vmtoolsd
+   3651 ?        00:00:00 nm-applet
+   3667 ?        00:00:00 gvfs-goa-volume
+   3707 ?        00:00:00 goa-daemon
+   3745 ?        00:00:00 goa-identity-se
+   3761 ?        00:00:00 gvfsd-trash
+   3765 ?        00:00:00 obexd
+   3797 ?        00:00:00 gvfsd-metadata
+   3853 ?        00:00:01 mate-terminal
+   3906 pts/0    00:00:00 bash
+   4007 ?        00:00:00 sshd
+   4012 ?        00:00:00 sshd
+   4013 pts/1    00:00:00 bash
+   4111 ?        00:00:00 kworker/0:0-cgroup_destroy
+   4202 ?        00:00:00 kworker/u256:0-events_unbound
+   4353 ?        00:00:00 kworker/u256:1-events_unbound
+   4421 ?        00:00:00 kworker/0:2-cgroup_destroy
+   4447 ?        00:00:08 floaters
+   4475 ?        00:00:00 kworker/1:0-cgroup_destroy
+   4574 ?        00:00:00 kworker/0:1-events
+   4596 pts/1    00:00:00 script
+   4597 pts/2    00:00:00 bash
+   4610 ?        00:00:00 tracker-extract
+   4630 ?        00:00:00 kworker/1:1-mm_percpu_wq
+   4641 pts/2    00:00:00 ps
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0mps -x
+    PID TTY      STAT   TIME COMMAND
+   3370 ?        Ss     0:00 /lib/systemd/systemd --user
+   3372 ?        S      0:00 (sd-pam)
+   3379 ?        Ssl    0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   3383 ?        Ss     0:00 /bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --sysl
+   3386 ?        Ssl    0:00 /usr/libexec/gvfs/gvfsd
+   3392 ?        Sl     0:00 /usr/libexec/gvfs/gvfsd-fuse /run/user/500/gvfs -f
+   3401 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   3405 ?        Ssl    0:00 /usr/bin/mate-session
+   3458 ?        Ss     0:00 ssh-agent -u
+   3521 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   3526 ?        S      0:00 /bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print
+   3550 ?        Ssl    0:00 /usr/libexec/dconf-service
+   3555 ?        Sl     0:00 /usr/libexec/mate-settings-daemon
+   3558 ?        Sl     0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   3569 ?        Sl     0:18 marco
+   3579 ?        Sl     0:00 mate-panel
+   3595 ?        Sl     0:00 /usr/bin/caja
+   3596 ?        Ssl    0:00 /usr/libexec/gvfs/gvfs-udisks2-volume-monitor
+   3602 ?        Sl     0:00 mate-power-manager
+   3604 ?        Ssl    0:00 /usr/libexec/gvfs/gvfs-afc-volume-monitor
+   3605 ?        Sl     0:00 mate-screensaver
+   3608 ?        Sl     0:03 mate-menu
+   3614 ?        Sl     0:00 blueberry-obex-agent
+   3615 ?        Sl     0:00 mate-volume-control-status-icon
+   3622 ?        Sl     0:01 parcellite
+   3630 ?        Ssl    0:00 /usr/libexec/gvfs/gvfs-gphoto2-volume-monitor
+   3632 ?        S      0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   3635 ?        Sl     0:00 /usr/libexec/polkit-mate-authentication-agent-1
+   3637 ?        Sl     0:00 apt-indicator --autostarted
+   3641 ?        Ssl    0:00 /usr/libexec/gvfs/gvfs-mtp-volume-monitor
+   3645 ?        Sl     0:02 /usr/bin/vmtoolsd -n vmusr
+   3651 ?        Sl     0:00 nm-applet
+   3667 ?        Ssl    0:00 /usr/libexec/gvfs/gvfs-goa-volume-monitor
+   3707 ?        Sl     0:00 /usr/libexec/goa-daemon
+   3745 ?        Sl     0:00 /usr/libexec/goa-identity-service
+   3761 ?        Sl     0:00 /usr/libexec/gvfs/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   3765 ?        Ss     0:00 /usr/libexec/bluetooth/obexd
+   3797 ?        Ssl    0:00 /usr/libexec/gvfs/gvfsd-metadata
+   3853 ?        Sl     0:01 mate-terminal
+   3906 pts/0    Ss+    0:00 bash
+   4012 ?        R      0:00 sshd: zubov_olshannikov@pts/1
+   4013 pts/1    Ss     0:00 -bash
+   4447 ?        Sl     0:09 /usr/libexec/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg
+   4596 pts/1    S+     0:00 script
+   4597 pts/2    Ss     0:00 bash -i
+   4647 ?        SNsl   0:00 /usr/libexec/tracker-extract-3
+   4652 pts/2    R+     0:00 ps -x
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0mtop &
+[1] 4701
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0m[?1l>
+[1]+  Остановлен    top
+kill %1[K[K[K[K[K[K[K
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0mkill %1
+[?1l>
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0m[1]+  Завершён        top
+]0;zubov_olshannikov@ZubOlsh: /home/zubov_olshannikov[32m[zubov_olshannikov@ZubOlsh ~]$ [0mexit
+
+Script done on 2026-02-11 15:57:56+03:00 [COMMAND_EXIT_CODE="0"]
